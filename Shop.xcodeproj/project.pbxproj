@@ -18,6 +18,7 @@
 		1858273B282699A20015919C /* ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858273A282699A20015919C /* ShopUITests.swift */; };
 		1858273D282699A20015919C /* ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858273C282699A20015919C /* ShopUITestsLaunchTests.swift */; };
 		1858274A28269AB50015919C /* Productviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858274928269AB50015919C /* Productviewcontroller.swift */; };
+		1858274C28269F480015919C /* categorypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858274B28269F480015919C /* categorypageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1858273A282699A20015919C /* ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopUITests.swift; sourceTree = "<group>"; };
 		1858273C282699A20015919C /* ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1858274928269AB50015919C /* Productviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Productviewcontroller.swift; sourceTree = "<group>"; };
+		1858274B28269F480015919C /* categorypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categorypageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,8 @@
 		18582715282699A00015919C /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				1858274928269AB50015919C /* Productviewcontroller.swift */,
+				1858274B28269F480015919C /* categorypageViewController.swift */,
 				18582716282699A00015919C /* AppDelegate.swift */,
 				18582718282699A00015919C /* SceneDelegate.swift */,
 				1858271A282699A00015919C /* ViewController.swift */,
@@ -111,7 +115,6 @@
 				18582724282699A20015919C /* LaunchScreen.storyboard */,
 				18582727282699A20015919C /* Info.plist */,
 				1858271F282699A00015919C /* Shop.xcdatamodeld */,
-				1858274928269AB50015919C /* Productviewcontroller.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				1858271B282699A00015919C /* ViewController.swift in Sources */,
 				1858274A28269AB50015919C /* Productviewcontroller.swift in Sources */,
+				1858274C28269F480015919C /* categorypageViewController.swift in Sources */,
 				18582717282699A00015919C /* AppDelegate.swift in Sources */,
 				18582719282699A00015919C /* SceneDelegate.swift in Sources */,
 				18582721282699A00015919C /* Shop.xcdatamodeld in Sources */,
